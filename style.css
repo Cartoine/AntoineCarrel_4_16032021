@@ -381,6 +381,7 @@ a:hover {
 
 .textUnder {
   font-size: 1.2em;
+  color: #000;
 }
 
 .work {
@@ -393,16 +394,17 @@ a:hover {
 }
 
 .social {
-  color: #fff;
+  color: #000;
 }
 
 .textFooter {
   font-size: 1.5em;
+  color: #000 !important;
 }
 
 .partenaireLyon {
   margin-top: 25px;
-  color: #fff;
+  color: #000;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -416,11 +418,11 @@ a:hover {
 
 .partenaireLyon li {
   list-style: none;
-  color: #fff;
+  color: #000;
   margin-left: 30px;
 }
 .partenaireLyon li a {
-  color: #fff;
+  color: #000;
 }
 
 .titleContact {
@@ -806,7 +808,7 @@ h4 {
 }
 
 .white {
-  color: #ffffff !important;
+  color: #ffffff;
 }
 
 .portfolio-thumb {
@@ -851,7 +853,7 @@ h4 {
 
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff !important;
+  /* color: #ffffff !important; */
 }
 
 .btn-atomic-tangerine:hover {
