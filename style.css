@@ -283,9 +283,9 @@ a:hover {
   padding-left: 0;
 }
 
-#bloc-1-hero h1 {
+/* #bloc-1-hero h1 {
   font-size: 32px;
-}
+}*/
 
 .navbar {
   margin-bottom: 0;
@@ -295,7 +295,7 @@ a:hover {
 .navbar-brand {
   height: auto;
   padding: 3px 15px;
-  font-size: 25px;
+  /* font-size: 25px; */
   font-weight: normal;
   font-weight: 600;
   line-height: 44px;
@@ -361,7 +361,67 @@ a:hover {
   position: relative;
   z-index: 2;
 }
+/* start refactoring */
+.nav {
+  display: flex;
+  flex-direction: row;
+}
 
+.row .text-center p {
+  font-size: 2em;
+}
+
+.med-width-whitespace p {
+  font-size: 1em;
+}
+
+.textInCadre {
+  font-size: 1.5em;
+}
+
+.textUnder {
+  font-size: 1.2em;
+}
+
+.work {
+  font-size: 1em;
+}
+
+.tc-white {
+  color: #f3976c !important;
+  z-index: 100;
+}
+
+.social {
+  color: #fff;
+}
+
+.textFooter {
+  font-size: 1.5em;
+}
+
+.partenaireLyon {
+  margin-top: 25px;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.partenaireLyon {
+  font-size: 24px;
+  text-align: center;
+}
+
+.partenaireLyon li {
+  color: #fff;
+  margin-left: 30px;
+}
+.partenaireLyon li a {
+  color: #fff;
+}
+/* end refactoring */
 @media (min-width: 768px) {
   .site-navigation {
     position: absolute;
@@ -653,7 +713,7 @@ label,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757 !important;
+  color: #575757;
 }
 
 .container {
@@ -776,9 +836,10 @@ h4 {
   background-color: #f3976c;
 }
 
-.tc-white {
+/* .tc-white {
   color: #f3976c !important;
-}
+  z-index: 1000;
+} */
 
 .btn-atomic-tangerine {
   background: #f3976c;
