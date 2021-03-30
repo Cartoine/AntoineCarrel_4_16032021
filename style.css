@@ -433,6 +433,26 @@ a:hover {
   font-size: 15px !important;
   color: #000;
 }
+
+.iconSocial svg {
+  width: 20px;
+}
+
+.iconSocial svg:hover {
+  fill: #364577;
+}
+
+/* .iconSocial {
+  background-color: #364577;
+} */
+
+.textLink:hover {
+  color: #364577;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
 /* end refactoring */
 @media (min-width: 768px) {
   .site-navigation {
@@ -1050,7 +1070,8 @@ h4 {
   }
   .navbar-brand img {
     max-height: 40px;
-    width: auto;
+    height: 40px;
+    width: 200px;
   }
   .nav-invert .navbar-header {
     float: none;
