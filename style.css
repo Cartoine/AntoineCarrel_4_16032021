@@ -395,6 +395,7 @@ a:hover {
 
 .social {
   color: #000;
+  font-size: 10px !important;
 }
 
 .textFooter {
@@ -428,8 +429,9 @@ a:hover {
 .titleContact {
   font-size: 3em !important;
 }
-.textContact {
-  font-size: 1.5em;
+.textLink {
+  font-size: 15px !important;
+  color: #000;
 }
 /* end refactoring */
 @media (min-width: 768px) {
