@@ -415,11 +415,19 @@ a:hover {
 }
 
 .partenaireLyon li {
+  list-style: none;
   color: #fff;
   margin-left: 30px;
 }
 .partenaireLyon li a {
   color: #fff;
+}
+
+.titleContact {
+  font-size: 3em !important;
+}
+.textContact {
+  font-size: 1.5em;
 }
 /* end refactoring */
 @media (min-width: 768px) {
@@ -902,16 +910,16 @@ h4 {
   }
 }
 
-@media (max-width: 992px) and (min-width: 768px) {
+/* @media (max-width: 992px) and (min-width: 768px) {
   .navbar .nav {
     max-width: 80%;
   }
   .nav-center.navbar .nav {
     max-width: 100%;
   }
-}
+} */
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+/* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   .b-parallax {
     background-attachment: scroll;
   }
@@ -921,7 +929,7 @@ h4 {
   .b-parallax {
     background-attachment: scroll;
   }
-}
+} */
 
 @media (max-width: 991px) {
   .container {
@@ -953,6 +961,18 @@ h4 {
 }
 
 @media (max-width: 767px) {
+  .partenaireLyon {
+    font-size: 14px;
+  }
+
+  .titleContact {
+    font-size: 2em !important;
+  }
+  .textContact {
+    font-size: 1.3em;
+    text-align: center;
+  }
+
   .page-container {
     overflow-x: hidden;
     position: relative;
