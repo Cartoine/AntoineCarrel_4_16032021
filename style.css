@@ -436,6 +436,11 @@ a:hover {
   color: #000;
 }
 
+.textContact {
+  font-size: 1.3em;
+  text-align: center;
+}
+
 .iconSocial svg {
   max-width: 25px;
 }
@@ -1007,7 +1012,7 @@ h4 {
     font-size: 2em !important;
   }
   .textContact {
-    font-size: 1.3em;
+    font-size: 1em;
     text-align: center;
   }
 
